@@ -9,7 +9,7 @@ class Squirrel:
         self.id = id
 
     def __repr__(self):
-        return f"<Squirrel {self.name} {self.num_acorns} {self.rabid}>"
+        return f"<Squirrel id={self.id} name={self.name} num_acorns={self.num_acorns} rabid={self.rabid}>"
 
     def get_name(self):
         return self._name
